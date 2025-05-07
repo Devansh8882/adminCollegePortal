@@ -1,0 +1,164 @@
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .admin-header {
+    background-color: #1e2a38;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .logo-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .college-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .admin-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .admin-nav a {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    padding: 5px 10px;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #34495e;
+    top: 35px;
+    left: 0;
+    min-width: 120px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .dropdown-menu li {
+    padding: 10px;
+  }
+  
+  .dropdown-menu li a {
+    color: white;
+    display: block;
+  }
+  
+  .logout-btn {
+    background: #e74c3c;
+    padding: 5px 10px;
+    border-radius: 4px;
+  }
+  
+  .logout-btn:hover {
+    background: #c0392b;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  .student-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .student-table th, .student-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .student-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+  }
+  
+  .student-form label {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .student-form input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .student-form button {
+    background-color: #2ecc71;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .admin-footer {
+    background-color: #1e2a38;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+
+
+.subtext {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.dashboard-cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 250px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.card h3 {
+  margin-top: 0;
+  color: #2c3e50;
+}
+
+.card p {
+  color: #666;
+}
