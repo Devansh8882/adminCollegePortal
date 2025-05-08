@@ -12,7 +12,7 @@
 <section id="about" class="section">
     <h2 style= "color:#ff6600">About Our College</h2>
     <div class="about-content">
-        <img src="images/entry.jpeg" alt="College Campus">
+        <img src="../images/entry.jpeg" alt="College Campus">
         <div class="about-text">
             <p>Founded in 2020, NIT College has been a pioneer in providing quality education to students from diverse backgrounds. Our mission is to empower students with knowledge and skills to succeed in their careers.</p>
             <p>With state-of-the-art facilities and experienced faculty, we create an environment conducive to learning and personal growth.</p>

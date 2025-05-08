@@ -124,7 +124,7 @@
     <header>
         <div class="header-container">
             <div class="logo-container">
-                <img src="images/logo.png"class="logo">
+                <img src="../images/logo.png"class="logo">
                 <div class="college-name">
                     <h1>Northwell Institute of Technology</h1>
                     <p>Excellence in Education Since 2020</p>
