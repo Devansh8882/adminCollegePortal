@@ -13,6 +13,14 @@ app.use(bodyParser.urlencoded({ extended: true })); // for form data
 
 // console.log("log111");
 
+// Start server after DB connection
+
+connectDB().then(() => {
+  app.listen(PORT, () => {
+    console.log(` Server running at PORT No. -> ${PORT}`);
+  });
+});
+
 app.use(
   cors({
     origin: "http://localhost",
@@ -25,10 +33,3 @@ app.use(
 
 // Routes
 app.use("/v1", apiRoutes);
-
-// Start server after DB connection
-connectDB().then(() => {
-  app.listen(PORT, () => {
-    console.log(` Server running at PORT No. -> ${PORT}`);
-  });
-});
